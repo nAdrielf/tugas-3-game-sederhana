@@ -5,7 +5,7 @@ function main(){
     let p2=0;
     for(i=0;i<5;i++){
         ronde++;
-        randomNum=2/**Math.floor(Math.random() * 3)**/;
+        randomNum=Math.floor(Math.random() * 3);
         confirm('ronde '+ronde);
         let guess1=prompt("#1 tebak angka");
         let guess2=prompt("#2 tebak angka");        
